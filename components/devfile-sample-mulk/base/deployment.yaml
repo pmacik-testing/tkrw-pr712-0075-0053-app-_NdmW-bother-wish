@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-mulk
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0053-tenant/tkrw-pr712-0075-0053-app/devfile-sample-mulk@sha256:a7f50ea7c136a122ad2288fc5a9070fac3de9d9e01474f8a81da1713fc488a01
         name: my-nodejs
         ports:
         - containerPort: 3001
